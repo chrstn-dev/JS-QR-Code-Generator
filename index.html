@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>QR-Code-Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <section>
+      <div class="title">
+        <h1>Qr-Code-Generator</h1>
+      </div>
+      <img id="qrious" class="out">
+      <form autocomplete="off">
+
+        <label class="label">
+          Value
+          <input class="user-input" type="text" name="value" value="Hello World" spellcheck="false" class="form-control">
+        </label>
+
+        <label class="label">
+          Size
+          <input class="user-input" type="number" name="size" placeholder="100" min="100" max="1000" value="250">
+        </label>
+
+        <label class="label">
+          Level
+          <select name="level" class="level-select">
+            <option value="L">L - 7% damage</option>
+            <option value="M">M - 15% damage</option>
+            <option value="Q">Q - 25% damage</option>
+            <option value="H">H - 30% damage</option>
+          </select>
+        </label>
+
+        <br>
+
+        <label class="label">
+          Background
+          <input class="color-select" type="color" name="background" value="#ffffff">
+        </label>
+        <label class="label">
+          Foreground
+          <input class="color-select" type="color" name="foreground" value="#000000">
+        </label>
+      
+      </form>
+    </section>
+</main>
+<script src="gen.js"></script>
+</body>
+</html>

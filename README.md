@@ -1,5 +1,6 @@
-<h1>QR-Code Generator</h1>
-<p>A simple QR-Code-Generator made in JS + some CSS3 Styling</p>
+# QR-Code Generator
+A Basic QR-Code Generator using JavaScript. Licensed under MIT.
 
-<h3>Screenshots</h3>
-<img src="./readme/screen.png">
+> Just open up the index.html and you can start using the Generator.
+
+<img src="readme/screen.png" alt="QR-Code Generator Screenshot">
